@@ -14,9 +14,13 @@ Foi feita uma importação local padrão dos arquivos .csv. Uma vez que o datase
 Inclusive esta é uma sugestão de melhoria para importações menos compatíveis, além da economia de tempo, evita passivos de erro de atualizações manuais.
 Os dados estão limpos e não necessitam de tratamento. O dataset foi estruturado de forma relacional, desta forma foi feita a montagem do relacionamento conforme apresentado na imagem relationship.
 
+Durante o tratamento dos dados, surgiu um problema relacionado ao tamanho do arquivo .pbix. Os IDs numéricos eram muito extensos. Isso resultou em uma perda de desempenho nas consultas e um grande consumo de espaço pelo arquivo. Para contornar esse problema, foi adotada uma solução que envolveu a substituição dos IDs por índices iterativos e a replicação desses índices nas tabelas relacionadas, utilizando a mesclagem de consulta. Essa abordagem permitiu a remoção de algumas colunas e a redução do tamanho do arquivo. O mesmo pode ser realizado com os demais IDs, porém creio que há soluções mais sofisticadas para que esse problema seja tratado pela causa raiz.
+
+Fora este problema, não foi necessário nenhum ajuste mais refinado através do power query.
+
 ## _Montagem do dashboard:_
 
-Como primeiro passo para início da montagem do dashboard fiz o desenvolvimento de algumas perguntas de negócios, que vão basear todo contexto. São elas:
+No início do processo de montagem do dashboard, desenvolvi uma série de perguntas de negócio que servirão como base para todo o contexto. Essas perguntas são:
 
 - Como podemos categorizar as necessidades de cada página do dashboard?
 - Nível Gerenciamento - Dados gerais, com uma amostragem ampla com o objetivo de mapear os principais resultados.   
@@ -65,7 +69,7 @@ Ao analisar essas equipes, podemos ver que elas são compostas por indivíduos d
 
 ## _Contéudos:_
 
--> Relationship: Relacionamento aplicado ao dataset
--> Dataset: Pasta com as bases de dados utilizadas
--> Projeto Pedidos E-Commerce: Arquivo .pbix do projeto
--> 
+    -> Relationship: Relacionamento aplicado ao dataset
+    -> Dataset: Pasta com as bases de dados utilizadas
+    -> Projeto Pedidos E-Commerce: Arquivo .pbix do projeto
+    -> 
