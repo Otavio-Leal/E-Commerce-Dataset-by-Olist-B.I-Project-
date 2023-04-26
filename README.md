@@ -69,6 +69,6 @@ Ao analisar essas equipes, podemos ver que elas são compostas por indivíduos d
 
 ## _Contéudos:_
 
-    -> Relationship: Relacionamento aplicado ao dataset
     -> Dataset_Olist: Pasta com as bases de dados utilizadas
+    -> Relationship: Relacionamento aplicado ao dataset
     -> Projeto Pedidos E-Commerce: Arquivo .pbix do projeto
