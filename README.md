@@ -3,7 +3,7 @@
 ## _Escolha do desafio:_
 
 Optei por escolher um dataset do kaggle que trouxesse uma abordagem analítica e que possibilitasse uma abrangência sofisticada de tendencias e padrões mais próximos à realidade da empresa, desta forma escolhi o “Brazilian E-Commerce Public Dataset by Olist”. Este conjunto de dados contém informações públicas do comércio eletrônico brasileiro de pedidos feitos na Olist Store.
-Os dados comerciais mencionados são autênticos, mas foram submetidos à anonimização. As referências específicas a empresas e parceiros citados no texto foram substituídas por nomes das grandes casas de Game of Thrones. O dataset pode ser acessado através do link: 
+Os dados comerciais mencionados são autênticos, mas foram submetidos à anonimização. O dataset pode ser acessado através do link: 
 
                  		https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce?resource=download
                         
@@ -70,6 +70,5 @@ Ao analisar essas equipes, podemos ver que elas são compostas por indivíduos d
 ## _Contéudos:_
 
     -> Relationship: Relacionamento aplicado ao dataset
-    -> Dataset: Pasta com as bases de dados utilizadas
+    -> Dataset_Olist: Pasta com as bases de dados utilizadas
     -> Projeto Pedidos E-Commerce: Arquivo .pbix do projeto
-    -> 
